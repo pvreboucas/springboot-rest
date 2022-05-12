@@ -1,0 +1,12 @@
+
+
+Nesta aula, aprendemos que:
+
+    Para receber parâmetros dinâmicos no path da URL, devemos utilizar a anotação @PathVariable;
+    Para mapear requisições do tipo PUT, devemos utilizar a anotação @PutMapping;
+    Para fazer o controle transacional automático, devemos utilizar a anotação @Transactional nos métodos do controller;
+    Para mapear requisições do tipo DELETE, devemos utilizar a anotação @DeleteMapping;
+    Para tratar o erro 404 na classe controller, devemos utilizar o método findById, ao invés do método getOne, e utilizar a classe ResponseEntity para montar a resposta de not found;
+    O método getOne lança uma exception quando o id passado como parâmetro não existir no banco de dados;
+    O método findById retorna um objeto Optional<>, que pode ou não conter um objeto.
+
